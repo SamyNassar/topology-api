@@ -1,4 +1,4 @@
-package org.topology.api.model.utl;
+package org.topology.api.utl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.topology.api.model.Topology;
