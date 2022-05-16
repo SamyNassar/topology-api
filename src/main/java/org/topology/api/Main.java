@@ -12,7 +12,7 @@ public class Main {
 
 
         // Read topology from JSON file.
-        topology = Utl.readJSON("src/main/java/org/topology/demo/topology.json");
+        topology = Utl.readJSON("src/main/java/org/topology/api/topology.json");
         System.out.println("\ntopology with id (" + topology.getId() + ") is : \n" + topology.toString());
 
 
@@ -28,7 +28,7 @@ public class Main {
 
 
         // Write topology in a JSON file.
-        Utl.writeJSON("src/main/java/org/topology/demo/written-topology.json", topology);
+        Utl.writeJSON("src/main/java/org/topology/api/written-topology.json", topology);
 
 
         // Query Devices in the Topology.
